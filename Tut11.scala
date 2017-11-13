@@ -1,5 +1,5 @@
 /*
-    Tutorial 11 : Imperative Programming with Scala
+    Tutorial 11: Imperative Programming with Scala
 
     There is no need to submit this tutorial.
 
@@ -51,9 +51,7 @@ object Tut11 {
         }
 
 /* 
-    Q2 : Implement fib function with memoization 
-    using a hash table. 
-
+    Q2: Implement fib function with memoization using a hash table.
     How does this compares with your implementation in Q1?
 */
 

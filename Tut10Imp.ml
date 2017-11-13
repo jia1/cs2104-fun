@@ -10,7 +10,7 @@
 (* 
     Q1: Consider a tail-recursive method.
     Re-implement this method using an iterative loop together
-    with two imperative ref type values that are internal to the method 
+    with two imperative ref type values that are internal to the method
 *)
 
 let fib n =
@@ -34,8 +34,8 @@ let for_loop init final stmt =
     in aux init
 
 (* 
-    Q3:  Write two higher-order methods that would
-    implement a for-down-to loop iterator, and a while loop method
+    Q3: Write two higher-order methods that would implement a
+    for-down-to loop iterator, and a while loop method
 *)
 
 let while_loop t1 body =
@@ -47,10 +47,9 @@ let for_loop init final stmt =
     ;;
 
 (* 
-Q4: Implement fib function with memoization 
-using a hash table. 
+    Q4: Implement fib function with memoization using a hash table.
 
-How does this compares with your implementation in Q1?
+    How does this compare with your implementation in Q1?
 *)
 
 let fib8 n =
